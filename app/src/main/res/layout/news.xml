@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/new_img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/new_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/new_img"
+        android:layout_alignParentStart="true"
+        android:text="لقد صرح مصدر مسؤل"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#f9f2f2"
+        android:background="#C25B56"
+        android:alpha="0.7"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/new_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/new_title"
+        android:layout_alignParentStart="true"
+        android:text="10/2/2019"
+        android:background="#000"
+        android:alpha="0.8"
+        android:textSize="15sp"
+        android:textColor="#5087ff"
+        />
+</RelativeLayout>
